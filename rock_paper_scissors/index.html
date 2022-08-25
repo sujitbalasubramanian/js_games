@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="mt-5" style="text-align: center;">Rock Paper Scissors Game</h1>
+    <div class="container" style="max-width: 800px;">
+        <div class="score mt-5">
+            <h4 class="my_score mb-0" style="padding: 10px;">My Score :
+                <span id="my_score">0</span>
+            </h4>
+            <h4 class="computer_score mb-0" style="padding: 10px;">Computer Score :
+                <span id="computer_score">0</span>
+            </h4>
+        </div>
+        <div class="match">
+            <h4 class="uc" style="padding: 10px;">Your Choice
+            </h4>
+            <h4 class="cc" style="margin: 10px;">Computer Choice
+            </h4>
+        </div>
+        <div class="matchimg">
+            <img src="" alt="" width="150" id="userchoice">
+            <img src="" alt="" width="150" id="computerchoice">
+        </div>
+        <div class="imgbanner" id="imgbanner">
+            <img src="./img/rock.svg" alt="rock" width="150">
+            <img src="./img/paper.svg" alt="paper" width="150">
+            <img src="./img/scissor.svg" alt="scissors" width="150">
+        </div>
+        <div class="result">
+            <p style="font-size: 28px;font-weight: bold;">
+                <span id="result">Click Your Choice</span>
+            </p>
+        </div>
+        <div class="choice">
+            <button class="choicebtn btn btn-outline-success m-2" id="rock">Rock</button>
+            <button class="choicebtn btn btn-outline-success m-2" id="paper">Paper</button>
+            <button class="choicebtn btn btn-outline-success m-2" id="scissor">Scissors</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
