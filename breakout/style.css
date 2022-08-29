@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body > *{
+    font-family: 'Poppins', sans-serif;
+}
+
+.game {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.grid {
+    position: relative;
+    width: 560px;
+    height: 300px;
+    border: solid black 4px;
+    margin: 0 auto;
+}
+
+h5{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: magenta;
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
